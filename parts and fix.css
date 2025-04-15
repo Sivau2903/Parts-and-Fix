@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: whitesmoke;
+    }
+
+header {
+    background: #333;
+    color: lightgoldenrodyellow;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color:lightsalmon;
+}
+h2{
+    color: black;
+}
+p1{
+    color:black
+    ;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 100px;
+    border: #333;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.parts-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Spacing between items */
+    justify-items: center; /* Center align the items horizontally */
+    margin: 20px 0;
+}
+
+.part-item {
+    border: 1px solid #ccc;
+    padding: 25px;
+    width: 350px;
+    height: 1000;
+    text-align: center;
+    background-color: lightgrey;
+}
+.part-item img {
+    width: 100%; /* Makes the image responsive */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 5px; /* Optional: Rounded corners */
+    margin-bottom: 10px; /* Spacing between image and text */
+}
+
+.mechanic-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Spacing between items */
+    justify-items: center; /* Center align the items horizontally */
+    margin: 20px 0;
+}
+
+.mechanic-item {
+    border: 1px solid #ccc;
+    padding: 25px;
+    width: 250px;
+    height: 500;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.mechanic-item img {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px;
+    object-fit: cover; /* Ensures the image doesn't stretch */
+    border-radius: 50%; /* Makes the image circular */
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+button{
+    background-color:black;
+    color: white;
+    width: 100px;
+    height: 50px;
+    text-shadow: #333;
+}
+label{
+    color: black;
+}
+/* Basic Styling for Forms */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+.register-section, .login-section {
+    padding: 20px;
+    text-align: center;
+}
+
